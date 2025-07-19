@@ -1,4 +1,1 @@
-Directory to contain results for this project:
-
-- `/results/csv`: dataframes
-- `/results/plots`: plots
+This directory is where you can put results data such as figures.
