@@ -1,3 +1,3 @@
 # MODEL
 
-Directory to contain any modeling code for this project.
+Code for the "Hypothetical Minds" rock, paper, scissors model.
