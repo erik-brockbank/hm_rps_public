@@ -4,7 +4,7 @@
 
 To be presented at the *8th Annual Conference on Cognitive Computational Neuroscience* (2025; Amsterdam, Netherlands).
 
-**[LINK TO PAPER]()**
+**[LINK TO PAPER](writeup/preprint.pdf)**
 
 ```
 @inproceedings{cross2025understanding,
@@ -28,9 +28,12 @@ To be presented at the *8th Annual Conference on Cognitive Computational Neurosc
 
 ## Overview
 
+<p text-align="center" style="font-size: smaller">
+  <img width="100%" src="results/schematics/RPS_HM_Figure_1.png"></img>
+</p>
+
 How do we predict others from patterns in their behavior and what are the computational constraints that limit this ability? We investigate these questions by modeling human behavior over repeated games of rock, paper, scissors from Brockbank & Vul (2024). Against algorithmic opponents that varied in strategic sophistication, people readily exploit simple transition patterns (e.g., consistently playing rock after paper) but struggle to detect more complex sequential dependencies. To understand the cognitive mechanisms underlying these abilities and their limitations, we deploy Hypothetical Minds (HM), a large language model-based agent that generates and tests hypotheses about opponent strategies, as a cognitive model of this behavior (Cross et al., 2024). We show that when applied to the same experimental conditions, HM closely mirrors human performance patterns, succeeding and failing in similar ways. To better understand the source of HM's failures and whether people might face similar cognitive bottlenecks in this context, we performed a series of ablations and augmentations targeting different components of the system. When provided with natural language descriptions of the opponents' strategies, HM successfully exploited 6/7 bot opponents with win rates >80% suggesting that accurate hypothesis generation is the primary cognitive bottleneck in this task. Further, by systematically manipulating the model's hypotheses through pedagogically-inspired interventions, we find that the model substantially updates its causal understanding of opponent behavior, revealing how model-based analyses can produce testable hypotheses about human cognition.
 
-![](results/schematics/RPS_HM_Figure_1.png)
 
 
 ## Repository structure
